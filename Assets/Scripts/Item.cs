@@ -45,7 +45,8 @@ public class Item : MonoBehaviour
             int leftOverItems = inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
             if (leftOverItems <= 0)
             {
-                Destroy(gameObject); // item fully collected
+                gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                //Destroy(gameObject); // item fully collected
             }
             else
             {
