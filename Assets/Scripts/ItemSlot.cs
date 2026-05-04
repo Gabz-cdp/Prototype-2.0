@@ -186,6 +186,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
 
     public void Clear()
     {
+        //Reset Quantity
         itemName = "";
         quantity = 0;
         itemSprite = null;
