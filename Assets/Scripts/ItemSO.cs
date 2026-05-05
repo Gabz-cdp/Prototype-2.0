@@ -30,6 +30,8 @@ public class ItemSO : ScriptableObject
             //GameObject.Find("HealthManager").GetComponent<PlayerHealth>().ChangeHealth(amountToChangeStat); //this is for the health system created - must link to own game
         }
         return false; */
+
+        return false;
     }
 
     public enum StatToChange //Enumerations(enum): Allow to create drop-down menus of related constants

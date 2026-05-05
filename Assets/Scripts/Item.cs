@@ -5,22 +5,22 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     [SerializeField] //Makes this variable visiable and editable in the Unity Inspector
-    private string itemName; //priavte protects this variable from being accidentally edited by other scripts
-    public string ItemName => itemName;
+    public string itemName; //priavte protects this variable from being accidentally edited by other scripts
+   
 
     [SerializeField]
-    private int quantity; //the amount of items collected
+    public int quantity; //the amount of items collected
 
     [SerializeField]
-    private Sprite sprite; //the image of the item
-    public Sprite Sprite => sprite;
-
+    public Sprite sprite; //the image of the item
+   
+    
     [TextArea]
     [SerializeField]
-    private string itemDescription;
+    public string itemDescription;
 
     [SerializeField]
-    private InventoryManager inventoryManager;
+    public InventoryManager inventoryManager;
 
     private void Awake()
     {
