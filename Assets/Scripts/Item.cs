@@ -46,6 +46,7 @@ public class Item : MonoBehaviour
             if (leftOverItems <= 0)
             {
                 gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 //Destroy(gameObject); // item fully collected
             }
             else
