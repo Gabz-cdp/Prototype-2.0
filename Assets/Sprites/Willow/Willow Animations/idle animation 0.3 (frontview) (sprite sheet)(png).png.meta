@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 137e15c0898a7ea40b19fc5254c63a9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8302044259931661894
+    second: idle animation 0.3 (frontview) (sprite sheet)(png)_0
+  - first:
+      213: -1687649300160114649
+    second: idle animation 0.3 (frontview) (sprite sheet)(png)_1
+  - first:
+      213: 4748821974346675035
+    second: idle animation 0.3 (frontview) (sprite sheet)(png)_2
+  - first:
+      213: -4774012208747149762
+    second: idle animation 0.3 (frontview) (sprite sheet)(png)_3
+  - first:
+      213: -464551456980178149
+    second: idle animation 0.3 (frontview) (sprite sheet)(png)_4
+  - first:
+      213: 4766978105718445739
+    second: idle animation 0.3 (frontview) (sprite sheet)(png)_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle animation 0.3 (frontview) (sprite sheet)(png)_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 178
+        width: 591
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6462ccea449c63370800000000000000
+      internalID: 8302044259931661894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle animation 0.3 (frontview) (sprite sheet)(png)_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 180
+        width: 553
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720158e27e34498e0800000000000000
+      internalID: -1687649300160114649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle animation 0.3 (frontview) (sprite sheet)(png)_2
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 181
+        width: 541
+        height: 652
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53b082ec6437e140800000000000000
+      internalID: 4748821974346675035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle animation 0.3 (frontview) (sprite sheet)(png)_3
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 189
+        width: 545
+        height: 624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e368f30a03d4fbdb0800000000000000
+      internalID: -4774012208747149762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle animation 0.3 (frontview) (sprite sheet)(png)_4
+      rect:
+        serializedVersion: 2
+        x: 2294
+        y: 180
+        width: 560
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b6ec249e49d89f0800000000000000
+      internalID: -464551456980178149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle animation 0.3 (frontview) (sprite sheet)(png)_5
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 165
+        width: 552
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba69963a455b72240800000000000000
+      internalID: 4766978105718445739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      idle animation 0.3 (frontview) (sprite sheet)(png)_0: 8302044259931661894
+      idle animation 0.3 (frontview) (sprite sheet)(png)_1: -1687649300160114649
+      idle animation 0.3 (frontview) (sprite sheet)(png)_2: 4748821974346675035
+      idle animation 0.3 (frontview) (sprite sheet)(png)_3: -4774012208747149762
+      idle animation 0.3 (frontview) (sprite sheet)(png)_4: -464551456980178149
+      idle animation 0.3 (frontview) (sprite sheet)(png)_5: 4766978105718445739
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

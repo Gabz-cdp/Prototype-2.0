@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: 133d5b6088142d040bd7d4449d356653
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3702750346033722236
+    second: couldrin 0.2 (sprite sheet) (png)_0
+  - first:
+      213: 1419617988167423487
+    second: couldrin 0.2 (sprite sheet) (png)_1
+  - first:
+      213: -3974865267737920564
+    second: couldrin 0.2 (sprite sheet) (png)_2
+  - first:
+      213: 9037109221086837849
+    second: couldrin 0.2 (sprite sheet) (png)_3
+  - first:
+      213: -2523305613173967285
+    second: couldrin 0.2 (sprite sheet) (png)_4
+  - first:
+      213: 431972834370853656
+    second: couldrin 0.2 (sprite sheet) (png)_5
+  - first:
+      213: 4224671988818149168
+    second: couldrin 0.2 (sprite sheet) (png)_6
+  - first:
+      213: -5006859858602388886
+    second: couldrin 0.2 (sprite sheet) (png)_7
+  - first:
+      213: -8146039005805773881
+    second: couldrin 0.2 (sprite sheet) (png)_8
+  - first:
+      213: -5591341229514062169
+    second: couldrin 0.2 (sprite sheet) (png)_9
+  - first:
+      213: 1695999363239927640
+    second: couldrin 0.2 (sprite sheet) (png)_10
+  - first:
+      213: 2073685361302515662
+    second: couldrin 0.2 (sprite sheet) (png)_11
+  - first:
+      213: 3099951675539844108
+    second: couldrin 0.2 (sprite sheet) (png)_12
+  - first:
+      213: 6670763477767254425
+    second: couldrin 0.2 (sprite sheet) (png)_13
+  - first:
+      213: 1315118924122209475
+    second: couldrin 0.2 (sprite sheet) (png)_14
+  - first:
+      213: -2878917984544556434
+    second: couldrin 0.2 (sprite sheet) (png)_15
+  - first:
+      213: -4927868494575054042
+    second: couldrin 0.2 (sprite sheet) (png)_16
+  - first:
+      213: 5727024176356517068
+    second: couldrin 0.2 (sprite sheet) (png)_17
+  - first:
+      213: -3189444493524273796
+    second: couldrin 0.2 (sprite sheet) (png)_18
+  - first:
+      213: -4404630366007639643
+    second: couldrin 0.2 (sprite sheet) (png)_19
+  - first:
+      213: -5565837782311950176
+    second: couldrin 0.2 (sprite sheet) (png)_20
+  - first:
+      213: -1953651921667645978
+    second: couldrin 0.2 (sprite sheet) (png)_21
+  - first:
+      213: -6919145243814962253
+    second: couldrin 0.2 (sprite sheet) (png)_22
+  - first:
+      213: -144921820358497953
+    second: couldrin 0.2 (sprite sheet) (png)_23
+  - first:
+      213: 1573505731447770052
+    second: couldrin 0.2 (sprite sheet) (png)_24
+  - first:
+      213: 4848632741513397625
+    second: couldrin 0.2 (sprite sheet) (png)_25
+  - first:
+      213: -3916746910748905600
+    second: couldrin 0.2 (sprite sheet) (png)_26
+  - first:
+      213: 3540336757061486752
+    second: couldrin 0.2 (sprite sheet) (png)_27
+  - first:
+      213: 7115155608091815917
+    second: couldrin 0.2 (sprite sheet) (png)_28
+  - first:
+      213: 7603032965962778201
+    second: couldrin 0.2 (sprite sheet) (png)_29
+  - first:
+      213: 200855768208371291
+    second: couldrin 0.2 (sprite sheet) (png)_30
+  - first:
+      213: 5708572196286571945
+    second: couldrin 0.2 (sprite sheet) (png)_31
+  - first:
+      213: 4981860220148828625
+    second: couldrin 0.2 (sprite sheet) (png)_32
+  - first:
+      213: -3736272915913130914
+    second: couldrin 0.2 (sprite sheet) (png)_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_0
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c737b4b52dfc26330800000000000000
+      internalID: 3702750346033722236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_1
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2316
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5597de90f73b310800000000000000
+      internalID: 1419617988167423487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2250
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb7176491176d8c0800000000000000
+      internalID: -3974865267737920564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_3
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 2144
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cb947b4f24a6d70800000000000000
+      internalID: 9037109221086837849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_4
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 2168
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b463403f9ea6bfcd0800000000000000
+      internalID: -2523305613173967285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_5
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 2160
+        width: 20
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b1b41110daef500800000000000000
+      internalID: 431972834370853656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_6
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 2203
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f7c026acc01aa30800000000000000
+      internalID: 4224671988818149168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1637
+        width: 608
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6297df6c7f048ab0800000000000000
+      internalID: -5006859858602388886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_8
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1636
+        width: 611
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb787c0fa473fe80800000000000000
+      internalID: -8146039005805773881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_9
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1629
+        width: 622
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a681d4a6c09762b0800000000000000
+      internalID: -5591341229514062169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_10
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 2110
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f54316f66698710800000000000000
+      internalID: 1695999363239927640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_11
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 2148
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf2d5869d537cc10800000000000000
+      internalID: 2073685361302515662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1632
+        width: 600
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ced69ef9d350b20800000000000000
+      internalID: 3099951675539844108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_13
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 1625
+        width: 730
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99177f03a00539c50800000000000000
+      internalID: 6670763477767254425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_14
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 1262
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccb2b591bd304210800000000000000
+      internalID: 1315118924122209475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_15
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 1259
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6afcb1a8570c08d0800000000000000
+      internalID: -2878917984544556434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_16
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1230
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623d30196b1bc9bb0800000000000000
+      internalID: -4927868494575054042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_17
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1225
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4edc3352a7a7f40800000000000000
+      internalID: 5727024176356517068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_18
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1235
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75f8aca121dcb3d0800000000000000
+      internalID: -3189444493524273796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1149
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a14733d40c9fd2c0800000000000000
+      internalID: -4404630366007639643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_20
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1180
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a829dba60c22c2b0800000000000000
+      internalID: -5565837782311950176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_21
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9d3a9deb33e4e0800000000000000
+      internalID: -1953651921667645978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_22
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1154
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb53195f024aff90800000000000000
+      internalID: -6919145243814962253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_23
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1149
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5924594f522dfdf0800000000000000
+      internalID: -144921820358497953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_24
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1165
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb4cfe302736d510800000000000000
+      internalID: 1573505731447770052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_25
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1148
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9750c3c0acdc94340800000000000000
+      internalID: 4848632741513397625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_26
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 1161
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fe3bdbf6be4a9c0800000000000000
+      internalID: -3916746910748905600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_27
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1130
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a888e5e58dc12130800000000000000
+      internalID: 3540336757061486752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_28
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1105
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defe0fde35c1eb260800000000000000
+      internalID: 7115155608091815917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_29
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1108
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956cbcf2336638960800000000000000
+      internalID: 7603032965962778201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 546
+        width: 615
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ee52bc14599c200800000000000000
+      internalID: 200855768208371291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_31
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 553
+        width: 618
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5255eca2ce83f40800000000000000
+      internalID: 5708572196286571945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_32
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 553
+        width: 622
+        height: 505
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9ce96a97f132540800000000000000
+      internalID: 4981860220148828625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: couldrin 0.2 (sprite sheet) (png)_33
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 553
+        width: 728
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cb51f1497162cc0800000000000000
+      internalID: -3736272915913130914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 665c590ec152fec4a8b623282195eeaa
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":900.0,"y":900.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      couldrin 0.2 (sprite sheet) (png)_0: 3702750346033722236
+      couldrin 0.2 (sprite sheet) (png)_1: 1419617988167423487
+      couldrin 0.2 (sprite sheet) (png)_10: 1695999363239927640
+      couldrin 0.2 (sprite sheet) (png)_11: 2073685361302515662
+      couldrin 0.2 (sprite sheet) (png)_12: 3099951675539844108
+      couldrin 0.2 (sprite sheet) (png)_13: 6670763477767254425
+      couldrin 0.2 (sprite sheet) (png)_14: 1315118924122209475
+      couldrin 0.2 (sprite sheet) (png)_15: -2878917984544556434
+      couldrin 0.2 (sprite sheet) (png)_16: -4927868494575054042
+      couldrin 0.2 (sprite sheet) (png)_17: 5727024176356517068
+      couldrin 0.2 (sprite sheet) (png)_18: -3189444493524273796
+      couldrin 0.2 (sprite sheet) (png)_19: -4404630366007639643
+      couldrin 0.2 (sprite sheet) (png)_2: -3974865267737920564
+      couldrin 0.2 (sprite sheet) (png)_20: -5565837782311950176
+      couldrin 0.2 (sprite sheet) (png)_21: -1953651921667645978
+      couldrin 0.2 (sprite sheet) (png)_22: -6919145243814962253
+      couldrin 0.2 (sprite sheet) (png)_23: -144921820358497953
+      couldrin 0.2 (sprite sheet) (png)_24: 1573505731447770052
+      couldrin 0.2 (sprite sheet) (png)_25: 4848632741513397625
+      couldrin 0.2 (sprite sheet) (png)_26: -3916746910748905600
+      couldrin 0.2 (sprite sheet) (png)_27: 3540336757061486752
+      couldrin 0.2 (sprite sheet) (png)_28: 7115155608091815917
+      couldrin 0.2 (sprite sheet) (png)_29: 7603032965962778201
+      couldrin 0.2 (sprite sheet) (png)_3: 9037109221086837849
+      couldrin 0.2 (sprite sheet) (png)_30: 200855768208371291
+      couldrin 0.2 (sprite sheet) (png)_31: 5708572196286571945
+      couldrin 0.2 (sprite sheet) (png)_32: 4981860220148828625
+      couldrin 0.2 (sprite sheet) (png)_33: -3736272915913130914
+      couldrin 0.2 (sprite sheet) (png)_4: -2523305613173967285
+      couldrin 0.2 (sprite sheet) (png)_5: 431972834370853656
+      couldrin 0.2 (sprite sheet) (png)_6: 4224671988818149168
+      couldrin 0.2 (sprite sheet) (png)_7: -5006859858602388886
+      couldrin 0.2 (sprite sheet) (png)_8: -8146039005805773881
+      couldrin 0.2 (sprite sheet) (png)_9: -5591341229514062169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
