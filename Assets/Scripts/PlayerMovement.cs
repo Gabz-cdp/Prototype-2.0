@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 200;
+    public float speed = 800;
     public Rigidbody2D rb;
 
     // FixedUpdate is called 50 times per frame
