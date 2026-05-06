@@ -5,6 +5,7 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     public GameObject InventoryMenu; //Link to the toggle of the inventory menu
+    [SerializeField]
     private bool menuActivated; //tracks when the menu is opened or closed
     public ItemSlot[] itemSlot; //Add square brackets to make ItemSlot an array
 
@@ -13,21 +14,24 @@ public class InventoryManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        menuActivated = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && menuActivated) //if the button is pressed and the menu is already open
+        if (Input.GetKeyDown(KeyCode.I) && menuActivated) //if the button is pressed and the menu is already open
         {
+            Debug.Log("Not Active");
             Time.timeScale = 1; //deactivates the time in unity
             InventoryMenu.SetActive(false); //Deactives the menu
             menuActivated = false;
         }
         else //only executes if the previous statement is NOT true
-        if (Input.GetKeyDown(KeyCode.E) && !menuActivated) //if the button is pressed and the menu is not open - (Input.GetButtonDown("Inventory") && !menuActivated)
+        if (Input.GetKeyDown(KeyCode.I) && !menuActivated) //if the button is pressed and the menu is not open - (Input.GetButtonDown("Inventory") && !menuActivated)
         {
+
+            Debug.Log("Active");
             Time.timeScale = 0; //pauses time in unity
             InventoryMenu.SetActive(true); //Activates the menu
             menuActivated = true;
