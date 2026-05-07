@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\EnemyCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\BackTrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BackTrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerHealth.cs.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerHealth.cs.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +47,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\2D\\Light2DManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\InventoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +58,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BackTrack.cs",
+              "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\BackTrack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackTrack.cs",
+              "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\BackTrack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackTrack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:05:20.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ItemSO.cs",
+              "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSO.cs",
+              "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T19:08:18.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:23:42.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyCombat.cs",
+              "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\EnemyCombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyCombat.cs",
+              "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\EnemyCombat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyCombat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:22:11.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerHealth.cs.txt",
+              "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerHealth.cs.txt",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs.txt",
+              "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerHealth.cs.txt",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-07T13:12:19.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Light2DManager.cs",
               "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\2D\\Light2DManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\2D\\Light2DManager.cs",
@@ -54,12 +133,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@e9f15c489688\\Runtime\\2D\\Light2DManager.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAWwDAAAACrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:45:37.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T18:45:37.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -67,12 +145,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:32:52.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T18:32:52.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "SceneChanger.cs",
               "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\SceneChanger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChanger.cs",
@@ -80,31 +157,29 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneChanger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T17:27:38.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T17:27:38.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T09:25:27.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T09:25:27.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
               "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\Item.cs",
               "RelativeToolTip": "Assets\\Scripts\\Item.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T09:53:12.658Z"
             },
@@ -118,24 +193,11 @@
               "RelativeToolTip": "Assets\\Scripts\\InventoryManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T19:08:51.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T19:08:51.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ItemSO.cs",
-              "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSO.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSO.cs",
-              "ToolTip": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSO.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemSO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T19:08:18.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ItemSlot.cs",
               "DocumentMoniker": "C:\\Users\\gabzc\\Documents\\GitHub\\Prototype 2.0\\Assets\\Scripts\\ItemSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSlot.cs",

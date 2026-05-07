@@ -15,10 +15,10 @@ public class ItemSO : ScriptableObject
 
     public bool UseItem()
     {
-        /*if(statToChange == StatToChange.health) //have to create one for each type of stat
+        /* if(statToChange == StatToChange.health) //have to create one for each type of stat
         {
-            PlayerHealth playeerHealth = GameObject.Find("HealthManager").GetComponent<PlayerHealth>(); //reference to the PlayerHealth 
-            if(playerHealth.health == playerHealth.maxHealth) //checking to see if the health bar is already full
+            PlayerHealth playerHealth = GameObject.Find("HealthManager").GetComponent<PlayerHealth>(); //reference to the PlayerHealth 
+            if(playerHealth.currentHealth == playerHealth.maxHealth) //checking to see if the health bar is already full
             {
                 return false;
             }
@@ -28,10 +28,8 @@ public class ItemSO : ScriptableObject
                 return true;
             }    
             //GameObject.Find("HealthManager").GetComponent<PlayerHealth>().ChangeHealth(amountToChangeStat); //this is for the health system created - must link to own game
-        }
-        return false; */
-
-        return false;
+        } */
+        return false; 
     }
 
     public enum StatToChange //Enumerations(enum): Allow to create drop-down menus of related constants
