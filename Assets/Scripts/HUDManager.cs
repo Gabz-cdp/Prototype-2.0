@@ -6,6 +6,7 @@ public class HUDManager : MonoBehaviour
 {
     public GameObject JournalMenu;
     public GameObject MapMenu;
+    public GameObject MainMenu;
     [SerializeField]
     private bool menuActivated;
 
@@ -31,11 +32,10 @@ public class HUDManager : MonoBehaviour
             menuActivated = true;
         }
 
+
         //====MAP MENU====//
         if (Input.GetKeyDown(KeyCode.M) && menuActivated) //if the button is pressed and the menu is already open
         {
-            //test check
-            //Debug.Log("Not Active");
             Time.timeScale = 1; //deactivates the time in unity
             MapMenu.SetActive(false); //Deactives the menu
             menuActivated = false;
@@ -43,10 +43,24 @@ public class HUDManager : MonoBehaviour
         else //only executes if the previous statement is NOT true
        if (Input.GetKeyDown(KeyCode.M) && !menuActivated) //if the button is pressed and the menu is not open - (Input.GetButtonDown("Inventory") && !menuActivated)
         {
-            //test check
-            //Debug.Log("Active");
             Time.timeScale = 0; //pauses time in unity
             MapMenu.SetActive(true); //Activates the menu
+            menuActivated = true;
+        }
+
+
+        //====MAIN MENU====//
+        if (Input.GetKeyDown(KeyCode.Q) && menuActivated) //if the button is pressed and the menu is already open
+        {
+            Time.timeScale = 1; //deactivates the time in unity
+            MainMenu.SetActive(false); //Deactives the menu
+            menuActivated = false;
+        }
+        else //only executes if the previous statement is NOT true
+      if (Input.GetKeyDown(KeyCode.Q) && !menuActivated) //if the button is pressed and the menu is not open - (Input.GetButtonDown("Inventory") && !menuActivated)
+        {
+            Time.timeScale = 0; //pauses time in unity
+            MainMenu.SetActive(true); //Activates the menu
             menuActivated = true;
         }
     }

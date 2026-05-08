@@ -38,6 +38,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
     public GameObject selectedShader;
     public bool thisItemSelected;
 
+    //===AUDIO===
+    //[SerializeField] private AudioManager audioManager; //Redundent
+
     private InventoryManager inventoryManager; //enables this script to talk to the InventoryManager
 
 
@@ -201,6 +204,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
                 // Heal immediately when item is dropped
                 int currentAmount = 1; // you can make this depend on the item type
                 currentHealth.ChangeHealth(currentAmount);
+
+                //Play Eat Sound
+                AudioManager.Instance.Eat();
             }
         }
 

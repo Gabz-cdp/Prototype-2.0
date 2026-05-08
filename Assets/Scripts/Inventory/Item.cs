@@ -48,6 +48,9 @@ public class Item : MonoBehaviour
                 gameObject.GetComponent<SpriteRenderer>().enabled = false;
                 gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
                 //Destroy(gameObject); // item fully collected
+
+                //Play FindItem Sound
+                AudioManager.Instance.FindItem();
             }
             else
             {
