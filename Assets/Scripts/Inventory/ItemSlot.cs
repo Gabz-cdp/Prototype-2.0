@@ -13,7 +13,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
     public Sprite itemSprite;
     public bool isFull; //tracks if slot is full
     public string itemDescription;
-    public Sprite emptySprite;
+    public Sprite emptySprite; //makes the slot blank
 
     [SerializeField]
     private int maxNumberOfItems; //Defines the size of the slot
@@ -26,12 +26,15 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
     [SerializeField]
     private Image itemImage;
 
+    //==========COBWEB DEER===========//
+    public GameObject animal;
+
     //===========ITEM DESCRIPTION SLOT============//
     public Image itemDescriptionImage;
     public TMP_Text itemDescriptionNameText;
     public TMP_Text itemDescriptionText;
 
-
+    //==========SELECTED ITEMS=============//
     public GameObject selectedShader;
     public bool thisItemSelected;
 
@@ -114,7 +117,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
         else
         {
             //Highlights the Slot when Selected
-            inventoryManager.DeselectAllSlots();
+            inventoryManager.DeselectAllSlots(); //Deselects all other slots 
             selectedShader.SetActive(true); //will turn Shader on
             thisItemSelected = true;
 
@@ -122,6 +125,10 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
             itemDescriptionNameText.text = itemName;
             itemDescriptionText.text = itemDescription;
             itemDescriptionImage.sprite = itemSprite != null ? itemSprite : emptySprite;
+            /*if(itemDescriptionImage.sprite == null)
+            {
+                itemDescriptionImage.sprite == emptySprite;
+            }*/
 
             //====OLDER CODE LOGIC==== 
             //itemDescriptionImage.sprite = itemSprite;
@@ -182,6 +189,29 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
 
         // Tell InventoryManager to spawn the item back into the world
         inventoryManager.DropItem(this, dropPosition);
+
+        //======DROPPING ITEM TO HEAL COBWEBDEER======//
+        // Find the animal
+        GameObject animal = GameObject.FindGameObjectWithTag("Animal");
+        if (animal != null)
+        {
+            PlayerHealth currentHealth = animal.GetComponent<PlayerHealth>();
+            if (currentHealth != null)
+            {
+                // Heal immediately when item is dropped
+                int currentAmount = 1; // you can make this depend on the item type
+                currentHealth.ChangeHealth(currentAmount);
+            }
+        }
+
+        // Subtract the item from inventory
+        this.quantity -= 1;
+        quantityText.text = this.quantity.ToString();
+        if (this.quantity <= 0)
+        {
+            EmptySlot();
+        }
+        //============================================//
     }
 
     public void Clear()

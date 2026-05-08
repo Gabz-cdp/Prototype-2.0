@@ -60,27 +60,26 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scipts\Item.cs" />
-    <Compile Include="Assets\Scipts\CobwebDeerMovement.cs" />
-    <Compile Include="Assets\Scipts\CraftingManager.cs" />
-    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\Eat.cs" />
-    <Compile Include="Assets\Scipts\Enemy_Combat.cs" />
-    <Compile Include="Assets\Scipts\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\EnemyCombat.cs" />
-    <Compile Include="Assets\Scipts\Player.cs" />
-    <Compile Include="Assets\Scripts\SceneChanger.cs" />
-    <Compile Include="Assets\Scripts\ItemSO.cs" />
-    <Compile Include="Assets\Scripts\Item.cs" />
-    <Compile Include="Assets\Scipts\DestroyOnCollision.cs" />
-    <Compile Include="Assets\Scripts\InventoryManager.cs" />
-    <Compile Include="Assets\Scripts\FindAudio.cs" />
-    <Compile Include="Assets\Scripts\ItemSlot.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scipts\Slot.cs" />
-    <Compile Include="Assets\Scripts\BackTrack.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scipts\CustomCursor.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Item.cs" />
+    <Compile Include="Assets\Scripts\Inventory\ItemSlot.cs" />
+    <Compile Include="Assets\Scripts\HUDManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\BackTrack.cs" />
+    <Compile Include="Assets\Scripts\OpenGame.cs" />
+    <Compile Include="Assets\Scripts\Willow\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Willow\EnemyCombat.cs" />
+    <Compile Include="Assets\Scripts\Willow\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Inventory\CustomCursor.cs" />
+    <Compile Include="Assets\Scripts\CobwebDeerMovement.cs" />
+    <Compile Include="Assets\Scripts\Inventory\ItemSO.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Slot.cs" />
+    <Compile Include="Assets\Scripts\Teleport\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\Audio\Eat.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryManager.cs" />
+    <Compile Include="Assets\Scripts\Willow\Player.cs" />
+    <Compile Include="Assets\Scripts\Willow\DestroyOnCollision.cs" />
+    <Compile Include="Assets\Scripts\Audio\FindAudio.cs" />
+    <Compile Include="Assets\Scripts\Inventory\GameManager.cs" />
+    <Compile Include="Assets\Scripts\CraftingManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

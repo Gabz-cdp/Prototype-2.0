@@ -13,7 +13,7 @@ public class ItemSO : ScriptableObject
     public int amountToChangeAttributes;
 
 
-    public bool UseItem()
+    public bool UseItem() //Use the item = increase health
     {
         /* if(statToChange == StatToChange.health) //have to create one for each type of stat
         {

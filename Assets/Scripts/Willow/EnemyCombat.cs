@@ -1,8 +1,8 @@
-using UnityEngine;
+/*using UnityEngine;
 
-public class Enemy_Combat : MonoBehaviour
+public class EnemyCombat : MonoBehaviour
 {
-    public int damage = 1; 
+    public int damage = 1;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision != null)
@@ -11,8 +11,9 @@ public class Enemy_Combat : MonoBehaviour
         }
 
         if (collision.gameObject.name == "CobwebDeer")
-        { 
+        {
             gameObject.SetActive(false);
         }
     }
-}
+}*/
+
