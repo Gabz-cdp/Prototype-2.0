@@ -414,9 +414,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Library/PackageCache/com.unity.2d.common@800085e896ad/Runtime/InternalBridge/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.2d.common@800085e896ad/Runtime/InternalBridge/IAnimationPreviewable.cs"
-"Library/PackageCache/com.unity.2d.common@800085e896ad/Runtime/InternalBridge/InternalEngineBridge.cs"
+"Library/PackageCache/com.unity.2d.common@2af7c9b44b5c/Runtime/InternalBridge/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.2d.common@2af7c9b44b5c/Runtime/InternalBridge/IAnimationPreviewable.cs"
+"Library/PackageCache/com.unity.2d.common@2af7c9b44b5c/Runtime/InternalBridge/InternalEngineBridge.cs"
 -langversion:9.0
 /deterministic
 /optimize+
