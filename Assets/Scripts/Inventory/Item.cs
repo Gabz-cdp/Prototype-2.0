@@ -22,6 +22,11 @@ public class Item : MonoBehaviour
     [SerializeField]
     public InventoryManager inventoryManager;
 
+    public GameObject myAudioManager;
+
+
+   
+
     private void Awake()
     {
         if (inventoryManager == null)
@@ -40,17 +45,17 @@ public class Item : MonoBehaviour
         {
             //====OLDER CODE LOGIC====
             /*inventoryManager.AddItem(itemName, quantity, sprite);
-            Destroy(gameObject);*/
+            */
 
             int leftOverItems = inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
             if (leftOverItems <= 0)
             {
                 gameObject.GetComponent<SpriteRenderer>().enabled = false;
                 gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
-                //Destroy(gameObject); // item fully collected
+             
 
                 //Play FindItem Sound
-                AudioManager.Instance.FindItem();
+                myAudioManager.GetComponent<AudioManager>().FindItem();
             }
             else
             {
@@ -66,7 +71,7 @@ public class Item : MonoBehaviour
         {
             int leftOverItems = inventoryManager.AddItem(itemName, quantity, sprite, itemDescription);
             if (leftOverItems <= 0)
-                Destroy(gameObject);
+                
             else
                 quantity = leftOverItems;
         }

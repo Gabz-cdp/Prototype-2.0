@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: b1d9e920ede024b40bff10041d8f0356
+guid: 3bb9b9ea09248a347b30e67ebcdc3838
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7477422110622343865
-    second: Stable Shell_0
+      213: -4929017157086378712
+    second: Updated Homestead Structure_0
+  - first:
+      213: 1379689153099940604
+    second: Updated Homestead Structure_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +77,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stable Shell_0
+      name: Updated Homestead Structure_0
       rect:
         serializedVersion: 2
-        x: 187
-        y: 21
-        width: 884
-        height: 911
+        x: 3
+        y: 2
+        width: 1273
+        height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b2eb43eac325c760800000000000000
-      internalID: 7477422110622343865
+      spriteID: 8258f0cb20d989bb0800000000000000
+      internalID: -4929017157086378712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Updated Homestead Structure_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 970
+        width: 1227
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf24bfe89f3a52310800000000000000
+      internalID: 1379689153099940604
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Stable Shell_0: 7477422110622343865
+      Updated Homestead Structure_0: -4929017157086378712
+      Updated Homestead Structure_1: 1379689153099940604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
