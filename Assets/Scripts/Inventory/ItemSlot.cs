@@ -48,6 +48,11 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
     {
         inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
     }
+
+    public void Testing()
+    {
+        Debug.Log("Testing");
+    }
     
    public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
@@ -158,7 +163,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
 
     public void OnRightClick()
     {
-        //Create a new item
+        //REMOVING ITEM FROM INVENTORY AND SPWANING IN GAME WORLD
+        /*//Create a new item
         GameObject itemToDrop = new GameObject(itemName);
         Item newItem = itemToDrop.AddComponent<Item>(); //can hold data about what type of item is it
         newItem.quantity = 1;
@@ -191,7 +197,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
         Vector3 dropPosition = player.transform.position + Vector3.right; // drop slightly to the side
 
         // Tell InventoryManager to spawn the item back into the world
-        inventoryManager.DropItem(this, dropPosition);
+        inventoryManager.DropItem(this, dropPosition);*/
+
 
         //======DROPPING ITEM TO HEAL COBWEBDEER======//
         // Find the animal
