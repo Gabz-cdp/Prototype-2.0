@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth;
     public Slider slider;
     public Image popUp;
+    //add gameobject that has item script
 
     void Start()
     {
@@ -37,4 +38,19 @@ public class PlayerHealth : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.name == "Willow") 
+        { 
+            //add pop up for interaction
+        }
+
+        if (col.gameObject.name == "Willow" && Input.GetKeyDown(KeyCode.E)) //&& bool for hasApple that is persistent across scenes + include the flag of the maggot apple
+        {
+            currentHealth++;
+            //hide pop up for interaction
+        }
+    }
+
 }

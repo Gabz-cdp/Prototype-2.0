@@ -5,6 +5,8 @@ using UnityEngine;
 public class InventoryManager : MonoBehaviour
 {
     public GameObject InventoryMenu; //Link to the toggle of the inventory menu
+    public GameObject CloseInventoryControl; 
+
     [SerializeField]
     private bool menuActivated; //tracks when the menu is opened or closed
     public ItemSlot[] itemSlot; //Add square brackets to make ItemSlot an array
@@ -26,6 +28,7 @@ public class InventoryManager : MonoBehaviour
             //Debug.Log("Not Active");
             Time.timeScale = 1; //deactivates the time in unity
             InventoryMenu.SetActive(false); //Deactives the menu
+            CloseInventoryControl.SetActive(false);
             menuActivated = false;
         }
         else //only executes if the previous statement is NOT true
@@ -35,6 +38,7 @@ public class InventoryManager : MonoBehaviour
             //Debug.Log("Active");
             Time.timeScale = 0; //pauses time in unity
             InventoryMenu.SetActive(true); //Activates the menu
+            CloseInventoryControl.SetActive(true);
             menuActivated = true;
         }
     }
