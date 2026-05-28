@@ -23,10 +23,6 @@ public class Item : MonoBehaviour
     public InventoryManager inventoryManager;
 
     public GameObject myAudioManager;
-
-
-   
-
     private void Awake()
     {
         if (inventoryManager == null)

@@ -78,13 +78,13 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
             quantityText.enabled = true;
             isFull = true;
 
-            //====OLDER CODE LOGIC==== 
+            /*//====OLDER CODE LOGIC==== 
             //quantityText.text = quantity.ToString(); //changes the interger to a string
 
-            //Return the LEFTOVERS
+            // Return the LEFTOVERS
             int extraItems = this.quantity - maxNumberOfItems; //Calculates the extra items from the capped value with the amount collected
             this.quantity = maxNumberOfItems; //Slot is equal to the capped value
-            return extraItems; //checks to see if there is space in another slot for the excess items
+            return extraItems; //checks to see if there is space in another slot for the excess items*/
         }
 
         //Update QUANTITY TEXT
@@ -100,10 +100,10 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
         {
             OnLeftClick();
         }
-        if (eventData.button == PointerEventData.InputButton.Right)
+        /*if (eventData.button == PointerEventData.InputButton.Right)
         {
             OnRightClick();
-        }
+        }*/
     }
 
     public void OnLeftClick()
@@ -133,17 +133,18 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
             itemDescriptionNameText.text = itemName;
             itemDescriptionText.text = itemDescription;
             itemDescriptionImage.sprite = itemSprite != null ? itemSprite : emptySprite;
-            /*if(itemDescriptionImage.sprite == null)
-            {
-                itemDescriptionImage.sprite == emptySprite;
-            }*/
 
             //====OLDER CODE LOGIC==== 
             //itemDescriptionImage.sprite = itemSprite;
             /*if (itemDescriptionImage.sprite == null)
             {
                 itemDescriptionImage.sprite = emptySprite;
-            }*/
+            }
+
+            if(itemDescriptionImage.sprite == null)
+           {
+               itemDescriptionImage.sprite == emptySprite;
+           }*/
         }
     }
 
@@ -163,8 +164,34 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
 
     public void OnRightClick()
     {
+        /*//======DROPPING ITEM TO HEAL COBWEBDEER======//
+        // Find the animal
+        GameObject animal = GameObject.FindGameObjectWithTag("Animal");
+        if (animal != null)
+        {
+            PlayerHealth currentHealth = animal.GetComponent<PlayerHealth>();
+            if (currentHealth != null)
+            {
+                // Heal immediately when item is dropped
+                int currentAmount = 1; // you can make this depend on the item type
+                currentHealth.ChangeHealth(currentAmount);
+
+                //Play Eat Sound
+                AudioManager.Instance.Eat();
+            }
+        }
+
+        // Subtract the item from inventory
+        this.quantity -= 1;
+        quantityText.text = this.quantity.ToString();
+        if (this.quantity <= 0)
+        {
+            EmptySlot();
+        }
+        //============================================//
+
         //REMOVING ITEM FROM INVENTORY AND SPWANING IN GAME WORLD
-        /*//Create a new item
+        //Create a new item
         GameObject itemToDrop = new GameObject(itemName);
         Item newItem = itemToDrop.AddComponent<Item>(); //can hold data about what type of item is it
         newItem.quantity = 1;
@@ -198,33 +225,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler //an interface that 
 
         // Tell InventoryManager to spawn the item back into the world
         inventoryManager.DropItem(this, dropPosition);*/
-
-
-        //======DROPPING ITEM TO HEAL COBWEBDEER======//
-        // Find the animal
-        GameObject animal = GameObject.FindGameObjectWithTag("Animal");
-        if (animal != null)
-        {
-            PlayerHealth currentHealth = animal.GetComponent<PlayerHealth>();
-            if (currentHealth != null)
-            {
-                // Heal immediately when item is dropped
-                int currentAmount = 1; // you can make this depend on the item type
-                currentHealth.ChangeHealth(currentAmount);
-
-                //Play Eat Sound
-                AudioManager.Instance.Eat();
-            }
-        }
-
-        // Subtract the item from inventory
-        this.quantity -= 1;
-        quantityText.text = this.quantity.ToString();
-        if (this.quantity <= 0)
-        {
-            EmptySlot();
-        }
-        //============================================//
     }
 
     public void Clear()

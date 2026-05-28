@@ -52,7 +52,6 @@
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\HUDManager.cs" />
-    <Compile Include="Assets\Scripts\FeedDeer.cs" />
     <Compile Include="Assets\Scripts\Audio\BackTrack.cs" />
     <Compile Include="Assets\Scripts\OpenGame.cs" />
     <Compile Include="Assets\Scripts\Teleport\DontDestroy.cs" />
