@@ -35,6 +35,7 @@ public class Item : MonoBehaviour
         //inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
     }
 
+    //====COLLECTING ITEM=====
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player") //the player collides with the object
@@ -53,10 +54,10 @@ public class Item : MonoBehaviour
                 //Play FindItem Sound
                 myAudioManager.GetComponent<AudioManager>().FindItem();
             }
-            else
+            /*else
             {
                 quantity = leftOverItems; //update remaining quantity
-            }
+            }*/
         }
     }
 

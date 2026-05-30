@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
     //add gameobject that has item script - Andy
     //====HEALTH ITEM====
     public GameObject MaggotApple;
-    public bool hasApple;
+    public bool hasApple = false;
 
     //=====POPUPS=====
     public GameObject popUpDamagePrefab; //health pop of deer when fed
@@ -58,19 +58,17 @@ public class PlayerHealth : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.name == "Willow") 
-        { 
-            //add pop up for interaction - Andy
-
-        }
-
-        if (col.gameObject.name == "Willow" && Input.GetKeyDown(KeyCode.E) && hasApple == true) //&& bool for hasApple that is persistent across scenes + include the flag of the maggot apple - Andy
+                                              //(col.gameObject.tag == "MaggotApple") - collison with apple
+        if (col.gameObject.name == "Willow") //&& Input.GetKeyDown(KeyCode.E) && hasApple == true) //&& bool for hasApple that is persistent across scenes + include the flag of the maggot apple - Andy
         {
             currentHealth++;
             Instantiate(popUpDamagePrefab, transform.position, Quaternion.identity); //health pop of +1 every time the deer is healed
             PlayerHealth pop = GetComponent<PlayerHealth>(); //Popup dialogue for feeding deer
             pop.PopUp(popUpDialogue);//part of line above's logic
-            //hide pop up for interaction - Andy
+
+            /*if(hasApple)
+            {
+            }*/
         }
     }
 
