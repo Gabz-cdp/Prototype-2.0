@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: c6f9b14304dd6a547bb615e28b780374
+guid: 0c75244347e356e4785d5dda8c553dc8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 394869135124497923
-    second: walkcycle animation 0.3 (backview)(spritesheet)(png)_0
+      213: -7268492462577066989
+    second: Walk Up_0
   - first:
-      213: -544369645971355557
-    second: walkcycle animation 0.3 (backview)(spritesheet)(png)_1
+      213: 1871898622984766933
+    second: Walk Up_1
   - first:
-      213: -2052065219836515800
-    second: walkcycle animation 0.3 (backview)(spritesheet)(png)_2
+      213: 7051631850896801670
+    second: Walk Up_2
   - first:
-      213: 1480315099007377466
-    second: walkcycle animation 0.3 (backview)(spritesheet)(png)_3
+      213: 3969664895732049593
+    second: Walk Up_3
+  - first:
+      213: 8503715569609654249
+    second: Walk Up_4
+  - first:
+      213: 5622015187972741426
+    second: Walk Up_5
+  - first:
+      213: -4989687361671295925
+    second: Walk Up_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walkcycle animation 0.3 (backview)(spritesheet)(png)_0
+      name: Walk Up_0
       rect:
         serializedVersion: 2
-        x: 97
-        y: 85
-        width: 491
-        height: 900
+        x: 73
+        y: 1379
+        width: 540
+        height: 1011
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3068cd3e26bda7500800000000000000
-      internalID: 394869135124497923
+      spriteID: 31c5d7b8d90212b90800000000000000
+      internalID: -7268492462577066989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkcycle animation 0.3 (backview)(spritesheet)(png)_1
+      name: Walk Up_1
       rect:
         serializedVersion: 2
-        x: 738
-        y: 84
-        width: 466
-        height: 932
+        x: 721
+        y: 1397
+        width: 541
+        height: 1035
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b584f51f0b20278f0800000000000000
-      internalID: -544369645971355557
+      spriteID: 5d5cc8e31e15af910800000000000000
+      internalID: 1871898622984766933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkcycle animation 0.3 (backview)(spritesheet)(png)_2
+      name: Walk Up_2
       rect:
         serializedVersion: 2
-        x: 1376
-        y: 85
-        width: 568
-        height: 932
+        x: 1375
+        y: 1399
+        width: 541
+        height: 1035
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82ae5bb0e899583e0800000000000000
-      internalID: -2052065219836515800
+      spriteID: 68fb887aecd6cd160800000000000000
+      internalID: 7051631850896801670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkcycle animation 0.3 (backview)(spritesheet)(png)_3
+      name: Walk Up_3
       rect:
         serializedVersion: 2
-        x: 2073
-        y: 89
-        width: 531
-        height: 949
+        x: 2048
+        y: 1405
+        width: 541
+        height: 1036
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +199,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a306bff4db22b8410800000000000000
-      internalID: 1480315099007377466
+      spriteID: 9b66273c035171730800000000000000
+      internalID: 3969664895732049593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Up_4
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 1388
+        width: 540
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efba858144430670800000000000000
+      internalID: 8503715569609654249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Up_5
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 2178
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23957f8d609650e40800000000000000
+      internalID: 5622015187972741426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk Up_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 291
+        width: 542
+        height: 1035
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c8353f7c111cab0800000000000000
+      internalID: -4989687361671295925
       vertices: []
       indices: 
       edges: []
@@ -210,10 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      walkcycle animation 0.3 (backview)(spritesheet)(png)_0: 394869135124497923
-      walkcycle animation 0.3 (backview)(spritesheet)(png)_1: -544369645971355557
-      walkcycle animation 0.3 (backview)(spritesheet)(png)_2: -2052065219836515800
-      walkcycle animation 0.3 (backview)(spritesheet)(png)_3: 1480315099007377466
+      Walk Up_0: -7268492462577066989
+      Walk Up_1: 1871898622984766933
+      Walk Up_2: 7051631850896801670
+      Walk Up_3: 3969664895732049593
+      Walk Up_4: 8503715569609654249
+      Walk Up_5: 5622015187972741426
+      Walk Up_6: -4989687361671295925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

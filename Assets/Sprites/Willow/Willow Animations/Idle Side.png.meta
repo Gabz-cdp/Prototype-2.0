@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 9c4613a224185da40b94ee1d0ea3f879
+guid: 2e426bbc079234e4eb008491edb37345
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6994902106671416610
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_0
+      213: -2641301398136941440
+    second: Walk Side_0
   - first:
-      213: -4735369229206570412
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_1
+      213: 4459272622412607282
+    second: Walk Side_1
   - first:
-      213: -8789818726088191447
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_2
+      213: -1109675251164204654
+    second: Walk Side_2
   - first:
-      213: -4896674604369169253
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_3
+      213: 913669732563306920
+    second: Walk Side_3
   - first:
-      213: 2289954288094984519
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_4
+      213: 7231874032117567699
+    second: Walk Side_4
   - first:
-      213: 3310968563227869203
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_5
-  - first:
-      213: 3077203607938795561
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_6
-  - first:
-      213: -3037704423278491730
-    second: lead animation 0.3 (front view) (sprite sheet)(png)_7
+      213: -7836840309060174261
+    second: Walk Side_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +89,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -121,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_0
+      name: Walk Side_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 806
-        width: 555
-        height: 776
+        x: 24
+        y: 122
+        width: 519
+        height: 938
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22508cac762e21160800000000000000
-      internalID: 6994902106671416610
+      spriteID: 0841e436f56385bd0800000000000000
+      internalID: -2641301398136941440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_1
+      name: Walk Side_1
       rect:
         serializedVersion: 2
-        x: 597
-        y: 800
-        width: 548
-        height: 770
+        x: 650
+        y: 118
+        width: 496
+        height: 912
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45ab3dc66c6984eb0800000000000000
-      internalID: -4735369229206570412
+      spriteID: 23f2787e2d482ed30800000000000000
+      internalID: 4459272622412607282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_2
+      name: Walk Side_2
       rect:
         serializedVersion: 2
-        x: 1177
-        y: 811
-        width: 562
-        height: 737
+        x: 1221
+        y: 118
+        width: 491
+        height: 898
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 922df67607a440680800000000000000
-      internalID: -8789818726088191447
+      spriteID: 291b0560d34a990f0800000000000000
+      internalID: -1109675251164204654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_3
+      name: Walk Side_3
       rect:
         serializedVersion: 2
-        x: 1759
-        y: 809
-        width: 575
-        height: 738
+        x: 1788
+        y: 118
+        width: 484
+        height: 868
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9436e914648b0cb0800000000000000
-      internalID: -4896674604369169253
+      spriteID: 8a9467be7c10eac00800000000000000
+      internalID: 913669732563306920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_4
+      name: Walk Side_4
       rect:
         serializedVersion: 2
-        x: 2368
-        y: 804
-        width: 560
-        height: 775
+        x: 2367
+        y: 118
+        width: 490
+        height: 900
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 749b8c5da4d87cf10800000000000000
-      internalID: 2289954288094984519
+      spriteID: 3d05db8bd17cc5460800000000000000
+      internalID: 7231874032117567699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_5
+      name: Walk Side_5
       rect:
         serializedVersion: 2
-        x: 2941
-        y: 813
-        width: 561
-        height: 775
+        x: 2926
+        y: 119
+        width: 500
+        height: 951
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,52 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 310cea1bd5ce2fd20800000000000000
-      internalID: 3310968563227869203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_6
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 51
-        width: 564
-        height: 730
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9280eb0b06c64ba20800000000000000
-      internalID: 3077203607938795561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: lead animation 0.3 (front view) (sprite sheet)(png)_7
-      rect:
-        serializedVersion: 2
-        x: 679
-        y: 21
-        width: 552
-        height: 771
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea74ad5ebe7e7d5d0800000000000000
-      internalID: -3037704423278491730
+      spriteID: b4e7101a243fd3390800000000000000
+      internalID: -7836840309060174261
       vertices: []
       indices: 
       edges: []
@@ -310,14 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lead animation 0.3 (front view) (sprite sheet)(png)_0: 6994902106671416610
-      lead animation 0.3 (front view) (sprite sheet)(png)_1: -4735369229206570412
-      lead animation 0.3 (front view) (sprite sheet)(png)_2: -8789818726088191447
-      lead animation 0.3 (front view) (sprite sheet)(png)_3: -4896674604369169253
-      lead animation 0.3 (front view) (sprite sheet)(png)_4: 2289954288094984519
-      lead animation 0.3 (front view) (sprite sheet)(png)_5: 3310968563227869203
-      lead animation 0.3 (front view) (sprite sheet)(png)_6: 3077203607938795561
-      lead animation 0.3 (front view) (sprite sheet)(png)_7: -3037704423278491730
+      Walk Side_0: -2641301398136941440
+      Walk Side_1: 4459272622412607282
+      Walk Side_2: -1109675251164204654
+      Walk Side_3: 913669732563306920
+      Walk Side_4: 7231874032117567699
+      Walk Side_5: -7836840309060174261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
