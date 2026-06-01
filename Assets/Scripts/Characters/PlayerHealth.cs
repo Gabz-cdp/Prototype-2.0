@@ -51,13 +51,13 @@ public class PlayerHealth : MonoBehaviour
         }
 
         //locating the maggot apple from the item script
-        if (item != null)
+        /*if (item != null)
         {
             if (item.hasApple)
             {
                 //
             }
-        }
+        }*/
     }
     public void ChangeHealth(int amount)
     {
@@ -70,8 +70,8 @@ public class PlayerHealth : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        //(col.gameObject.tag == "MaggotApple") - collison with apple
-        if (col.gameObject.name == "Willow" && (item.hasApple = true)) //&& bool for hasApple that is persistent across scenes + include the flag of the maggot apple - Andy
+        //(col.gameObject.tag == "MaggotApple") - collison with apple //&& (item.hasApple = true)
+        if (col.gameObject.name == "Willow") //&& bool for hasApple that is persistent across scenes + include the flag of the maggot apple - Andy
         {
             currentHealth++;
             Instantiate(popUpDamagePrefab, transform.position, Quaternion.identity); //health pop of +1 every time the deer is healed
@@ -82,10 +82,10 @@ public class PlayerHealth : MonoBehaviour
             {
             }*/
         }
-        else if (col.gameObject.name == "Willow" && (item.hasApple = false))
+        /*else if (col.gameObject.name == "Willow" && (item.hasApple = false))
         {
             //Add popup saying more apples needed
-        }
+        }*/
     }
 
     //PopUp Controller 

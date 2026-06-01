@@ -35,7 +35,7 @@ public class Item : MonoBehaviour
     void Start()
     {
         //inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
-        hasApple = false;
+        //hasApple = false;
     }
 
     //====COLLECTING ITEM=====
@@ -52,7 +52,7 @@ public class Item : MonoBehaviour
             {
                 gameObject.GetComponent<SpriteRenderer>().enabled = false;
                 gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
-                hasApple = true;
+                //hasApple = true;
              
 
                 //Play FindItem Sound
