@@ -22,6 +22,8 @@ public class Item : MonoBehaviour
     [SerializeField]
     public InventoryManager inventoryManager;
 
+    public bool hasApple; //tracks if the player has the maggot apple in their inventory
+
     public GameObject myAudioManager;
     private void Awake()
     {
@@ -33,6 +35,7 @@ public class Item : MonoBehaviour
     void Start()
     {
         //inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
+        hasApple = false;
     }
 
     //====COLLECTING ITEM=====
@@ -49,6 +52,7 @@ public class Item : MonoBehaviour
             {
                 gameObject.GetComponent<SpriteRenderer>().enabled = false;
                 gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+                hasApple = true;
              
 
                 //Play FindItem Sound

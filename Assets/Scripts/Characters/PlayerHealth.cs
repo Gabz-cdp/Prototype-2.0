@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
     //add gameobject that has item script - Andy
     //====HEALTH ITEM====
     public GameObject MaggotApple;
-    public bool hasApple = false;
+    //public bool hasApple = false; //Already in the Item script
 
     //=====POPUPS=====
     public GameObject popUpDamagePrefab; //health pop of deer when fed
@@ -27,11 +27,14 @@ public class PlayerHealth : MonoBehaviour
     public TMP_Text popUpText;
     public string popUpDialogue;
 
+    //==MAGGOT APPLE ITEM SCRIPT==
+    [SerializeField] public Item item;
+
     void Start()
     {
         slider.maxValue = maxHealth;
         slider.value = currentHealth;
-        hasApple = false;
+        //hasApple = false; //already in the Item script
         popUpBox.SetActive(false);
     }
     void Update()
@@ -46,6 +49,15 @@ public class PlayerHealth : MonoBehaviour
         {
             popUp.gameObject.SetActive(false);
         }
+
+        //locating the maggot apple from the item script
+        if (item != null)
+        {
+            if (item.hasApple)
+            {
+                //
+            }
+        }
     }
     public void ChangeHealth(int amount)
     {
@@ -58,8 +70,8 @@ public class PlayerHealth : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-                                              //(col.gameObject.tag == "MaggotApple") - collison with apple
-        if (col.gameObject.name == "Willow") //&& Input.GetKeyDown(KeyCode.E) && hasApple == true) //&& bool for hasApple that is persistent across scenes + include the flag of the maggot apple - Andy
+        //(col.gameObject.tag == "MaggotApple") - collison with apple
+        if (col.gameObject.name == "Willow" && (item.hasApple = true)) //&& bool for hasApple that is persistent across scenes + include the flag of the maggot apple - Andy
         {
             currentHealth++;
             Instantiate(popUpDamagePrefab, transform.position, Quaternion.identity); //health pop of +1 every time the deer is healed
@@ -69,6 +81,10 @@ public class PlayerHealth : MonoBehaviour
             /*if(hasApple)
             {
             }*/
+        }
+        else if (col.gameObject.name == "Willow" && (item.hasApple = false))
+        {
+            //Add popup saying more apples needed
         }
     }
 

@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource soundeffects;
     [SerializeField] public AudioClip eat;
     [SerializeField] public AudioClip find;
+    [SerializeField] public AudioClip walk;
 
     private void Awake() //Awake = fires BEFORE the start method
     {
@@ -31,13 +32,19 @@ public class AudioManager : MonoBehaviour
     {
         soundeffects.clip = eat;
         soundeffects.Play();
-        Debug.Log("lol");
+        //Debug.Log("lol");
 
     }
 
     public void FindItem()
     {
         soundeffects.clip = find;
+        soundeffects.Play();
+    }
+
+    public void Walk()
+    {
+        soundeffects.clip = walk;
         soundeffects.Play();
     }
 }
