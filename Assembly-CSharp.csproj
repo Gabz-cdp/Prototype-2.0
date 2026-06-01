@@ -67,7 +67,6 @@
     <Compile Include="Assets\Scripts\Audio\Eat.cs" />
     <Compile Include="Assets\Scripts\Inventory\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\Characters\Player.cs" />
-    <Compile Include="Assets\Scripts\CameraManager.cs" />
     <Compile Include="Assets\Scripts\Inventory\GameManager.cs" />
     <Compile Include="Assets\Scripts\CraftingManager.cs" />
   </ItemGroup>

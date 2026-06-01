@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     {
         foreach (GameObject obj in persistentObjects)
         {
-            if (obj != null)
+            if (obj != null) //checks to see that all lines are filled with an object
             {
                 DontDestroyOnLoad(obj);
             }
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    private void CleanUpAndDestroy()
+    private void CleanUpAndDestroy() //destroys the duplicates
     {
         foreach (GameObject obj in persistentObjects)
         {
